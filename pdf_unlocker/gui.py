@@ -85,10 +85,10 @@ class PdfUnlockerApp:
         if self.icon_image is not None:
             icon_label = ttk.Label(top_frame, image=self.icon_image)
             icon_label.grid(row=0, column=0, sticky="w", padx=(0, 5))
-            ttk.Label(top_frame, text="PDF Dosyaları").grid(row=0, column=1, sticky="w")
+            ttk.Label(top_frame, text="Perperok v1.0.0").grid(row=0, column=1, sticky="w")
             top_frame.columnconfigure(1, weight=1)
         else:
-            ttk.Label(top_frame, text="PDF Dosyaları").grid(row=0, column=0, sticky="w")
+            ttk.Label(top_frame, text="Perperok v1.0.0").grid(row=0, column=0, sticky="w")
             top_frame.columnconfigure(1, weight=1)
         add_btn = ttk.Button(top_frame, text="PDF Ekle...", command=self.add_pdfs)
         add_btn.grid(row=0, column=2, sticky="e")
