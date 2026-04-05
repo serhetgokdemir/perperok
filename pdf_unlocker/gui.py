@@ -47,7 +47,7 @@ class ScrollableFrame(ttk.Frame):
 class PdfUnlockerApp:
     def __init__(self, root: tk.Tk, icon_image: tk.PhotoImage | None = None):
         self.root = root
-        self.root.title("PDF Unlocker")
+        self.root.title("Perperok")
         self.root.geometry("900x600")
 
         # Keep a reference so image is not garbage-collected

@@ -1,4 +1,4 @@
-# PDF Unlocker
+# Perperok
 
 Python ile yazılmış, tamamen yerel çalışan basit bir PDF şifre kaldırma (unlock) uygulaması.
 
@@ -31,11 +31,11 @@ python --version
 
 ## 2. Kurulum
 
-1. Projeyi bir klasöre indirin / kopyalayın (örneğin `pdf-unlocker`).
+1. Projeyi bir klasöre indirin / kopyalayın (örneğin `example123`).
 2. Terminali açın ve proje klasörüne geçin:
 
 ```bash
-cd pdf-unlocker
+cd example123
 ```
 
 3. (Önerilen) Sanal ortam oluşturun:
