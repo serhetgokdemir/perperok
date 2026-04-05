@@ -1,12 +1,16 @@
 # Perperok
 
-Python ile yazılmış, tamamen yerel çalışan basit bir PDF şifre kaldırma (unlock) uygulaması.
+Perperok, Python ve Tkinter ile yazılmış, tamamen yerel çalışan basit bir PDF şifre kaldırma (unlock) uygulamasıdır.
+
+## Özellikler
 
 - Bir veya birden fazla şifreli PDF seçebilirsiniz.
 - Her PDF için ayrı şifre girebilir veya tüm PDF'ler için tek ortak şifre kullanabilirsiniz.
 - Şifre alanlarında modern uygulamalardaki gibi "göster/gizle" butonu vardır.
 - Çözülen PDF'ler, seçtiğiniz hedef klasöre `*_unlocked.pdf` uzantısıyla kaydedilir.
 - İşlem sürecini yüzdelik ilerleme çubuğundan takip edebilirsiniz.
+- Uygulama penceresinin üst kısmında **Perperok v1.0.0** başlığını görürsünüz.
+- Uygulama tamamen çevrimdışı çalışır; PDF'leriniz hiçbir zaman internete gönderilmez.
 
 ---
 
@@ -149,7 +153,16 @@ Uygulamada iki şifre modu vardır:
 
 ---
 
-## 7. Sık Karşılaşılan Sorunlar
+## 7. İkon Özelleştirme (Opsiyonel)
+
+- İkon üretimi için `pdf_unlocker/assets/butterfly_source.png` dosyası kullanılır.
+- Kendi kelebek görselinizi bu dosyayla değiştirerek uygulama ikonunu özelleştirebilirsiniz.
+- Uygulama başlarken bu görselden `butterfly_icon.png` üretilir ve pencerenin sol üstünde gösterilir.
+- Eğer kaynak görsel bulunamazsa, uygulama ikonsuz olarak sorunsuz şekilde çalışmaya devam eder.
+
+---
+
+## 8. Sık Karşılaşılan Sorunlar
 
 ### 7.1. "PyCryptodome is required for AES algorithm" hatası
 
@@ -166,6 +179,6 @@ pip install -r requirements.txt
 
 ---
 
-## 8. Lisans
+## 9. Lisans
 
 Bu proje kişisel kullanım içindir. İhtiyaçlarınıza göre özgürce düzenleyebilirsiniz.
